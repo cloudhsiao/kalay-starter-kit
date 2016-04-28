@@ -1,0 +1,9 @@
+# iOS
+.DS_Store
+Pods/
+Podfile.lock
+xcuserdata/
+*.xcworkspace/
+build/
+DerivedData
+.idea/

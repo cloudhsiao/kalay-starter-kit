@@ -1,0 +1,480 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6132D72F1B9E83A90078233E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6132D72E1B9E83A90078233E /* AppDelegate.swift */; };
+		6132D7311B9E83A90078233E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6132D7301B9E83A90078233E /* ViewController.swift */; };
+		6132D7341B9E83A90078233E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6132D7321B9E83A90078233E /* Main.storyboard */; };
+		6132D7361B9E83A90078233E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6132D7351B9E83A90078233E /* Images.xcassets */; };
+		6132D7391B9E83A90078233E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6132D7371B9E83A90078233E /* LaunchScreen.xib */; };
+		6132D7451B9E83A90078233E /* P2PTunnelAgentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6132D7441B9E83A90078233E /* P2PTunnelAgentTests.swift */; };
+		6132D7541B9E84970078233E /* libIOTCAPIs_P2PTunnel.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6132D7531B9E84970078233E /* libIOTCAPIs_P2PTunnel.a */; };
+		6132D7571B9EAB120078233E /* EditUIDViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6132D7561B9EAB120078233E /* EditUIDViewController.swift */; };
+		619328891BBB75EE008D8701 /* TunnelBrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 619328881BBB75EE008D8701 /* TunnelBrain.swift */; };
+		61DACA681C770660003F2928 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61DACA671C770660003F2928 /* WebViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6132D73F1B9E83A90078233E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6132D7211B9E83A90078233E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6132D7281B9E83A90078233E;
+			remoteInfo = P2PTunnelAgent;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6132D7291B9E83A90078233E /* P2PTunnelAgent.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = P2PTunnelAgent.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6132D72D1B9E83A90078233E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6132D72E1B9E83A90078233E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6132D7301B9E83A90078233E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6132D7331B9E83A90078233E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6132D7351B9E83A90078233E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		6132D7381B9E83A90078233E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		6132D73E1B9E83A90078233E /* P2PTunnelAgentTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = P2PTunnelAgentTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6132D7431B9E83A90078233E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6132D7441B9E83A90078233E /* P2PTunnelAgentTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = P2PTunnelAgentTests.swift; sourceTree = "<group>"; };
+		6132D7531B9E84970078233E /* libIOTCAPIs_P2PTunnel.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libIOTCAPIs_P2PTunnel.a; path = ../../../../Lib/iOS/libIOTCAPIs_P2PTunnel.a; sourceTree = "<group>"; };
+		6132D7551B9E84BC0078233E /* P2PTunnelAPIs.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = P2PTunnelAPIs.h; path = ../../../../Include/P2PTunnelAPIs.h; sourceTree = "<group>"; };
+		6132D7561B9EAB120078233E /* EditUIDViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditUIDViewController.swift; sourceTree = "<group>"; };
+		6132D7581B9EBEC80078233E /* platform_Config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = platform_Config.h; sourceTree = "<group>"; };
+		6132D7591B9EC1210078233E /* P2PTunnelAgent-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "P2PTunnelAgent-Bridging-Header.h"; sourceTree = "<group>"; };
+		619328881BBB75EE008D8701 /* TunnelBrain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TunnelBrain.swift; sourceTree = "<group>"; };
+		61DACA671C770660003F2928 /* WebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6132D7261B9E83A90078233E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6132D7541B9E84970078233E /* libIOTCAPIs_P2PTunnel.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6132D73B1B9E83A90078233E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6132D7201B9E83A90078233E = {
+			isa = PBXGroup;
+			children = (
+				6132D72B1B9E83A90078233E /* P2PTunnelAgent */,
+				6132D7411B9E83A90078233E /* P2PTunnelAgentTests */,
+				6132D72A1B9E83A90078233E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6132D72A1B9E83A90078233E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6132D7291B9E83A90078233E /* P2PTunnelAgent.app */,
+				6132D73E1B9E83A90078233E /* P2PTunnelAgentTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6132D72B1B9E83A90078233E /* P2PTunnelAgent */ = {
+			isa = PBXGroup;
+			children = (
+				6132D7531B9E84970078233E /* libIOTCAPIs_P2PTunnel.a */,
+				6132D7591B9EC1210078233E /* P2PTunnelAgent-Bridging-Header.h */,
+				6132D7551B9E84BC0078233E /* P2PTunnelAPIs.h */,
+				6132D7581B9EBEC80078233E /* platform_Config.h */,
+				6132D72E1B9E83A90078233E /* AppDelegate.swift */,
+				6132D7561B9EAB120078233E /* EditUIDViewController.swift */,
+				6132D7301B9E83A90078233E /* ViewController.swift */,
+				6132D7321B9E83A90078233E /* Main.storyboard */,
+				6132D72C1B9E83A90078233E /* Supporting Files */,
+				619328881BBB75EE008D8701 /* TunnelBrain.swift */,
+				61DACA671C770660003F2928 /* WebViewController.swift */,
+			);
+			path = P2PTunnelAgent;
+			sourceTree = "<group>";
+		};
+		6132D72C1B9E83A90078233E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6132D7371B9E83A90078233E /* LaunchScreen.xib */,
+				6132D7351B9E83A90078233E /* Images.xcassets */,
+				6132D72D1B9E83A90078233E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6132D7411B9E83A90078233E /* P2PTunnelAgentTests */ = {
+			isa = PBXGroup;
+			children = (
+				6132D7441B9E83A90078233E /* P2PTunnelAgentTests.swift */,
+				6132D7421B9E83A90078233E /* Supporting Files */,
+			);
+			path = P2PTunnelAgentTests;
+			sourceTree = "<group>";
+		};
+		6132D7421B9E83A90078233E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6132D7431B9E83A90078233E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6132D7281B9E83A90078233E /* P2PTunnelAgent */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6132D7481B9E83A90078233E /* Build configuration list for PBXNativeTarget "P2PTunnelAgent" */;
+			buildPhases = (
+				6132D7251B9E83A90078233E /* Sources */,
+				6132D7261B9E83A90078233E /* Frameworks */,
+				6132D7271B9E83A90078233E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = P2PTunnelAgent;
+			productName = P2PTunnelAgent;
+			productReference = 6132D7291B9E83A90078233E /* P2PTunnelAgent.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6132D73D1B9E83A90078233E /* P2PTunnelAgentTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6132D74B1B9E83A90078233E /* Build configuration list for PBXNativeTarget "P2PTunnelAgentTests" */;
+			buildPhases = (
+				6132D73A1B9E83A90078233E /* Sources */,
+				6132D73B1B9E83A90078233E /* Frameworks */,
+				6132D73C1B9E83A90078233E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6132D7401B9E83A90078233E /* PBXTargetDependency */,
+			);
+			name = P2PTunnelAgentTests;
+			productName = P2PTunnelAgentTests;
+			productReference = 6132D73E1B9E83A90078233E /* P2PTunnelAgentTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6132D7211B9E83A90078233E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftMigration = 0700;
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = ThroughTek;
+				TargetAttributes = {
+					6132D7281B9E83A90078233E = {
+						CreatedOnToolsVersion = 6.4;
+						DevelopmentTeam = CHX656NT89;
+					};
+					6132D73D1B9E83A90078233E = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 6132D7281B9E83A90078233E;
+					};
+				};
+			};
+			buildConfigurationList = 6132D7241B9E83A90078233E /* Build configuration list for PBXProject "P2PTunnelAgent" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6132D7201B9E83A90078233E;
+			productRefGroup = 6132D72A1B9E83A90078233E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6132D7281B9E83A90078233E /* P2PTunnelAgent */,
+				6132D73D1B9E83A90078233E /* P2PTunnelAgentTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6132D7271B9E83A90078233E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6132D7341B9E83A90078233E /* Main.storyboard in Resources */,
+				6132D7391B9E83A90078233E /* LaunchScreen.xib in Resources */,
+				6132D7361B9E83A90078233E /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6132D73C1B9E83A90078233E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6132D7251B9E83A90078233E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6132D7311B9E83A90078233E /* ViewController.swift in Sources */,
+				6132D72F1B9E83A90078233E /* AppDelegate.swift in Sources */,
+				619328891BBB75EE008D8701 /* TunnelBrain.swift in Sources */,
+				61DACA681C770660003F2928 /* WebViewController.swift in Sources */,
+				6132D7571B9EAB120078233E /* EditUIDViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6132D73A1B9E83A90078233E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6132D7451B9E83A90078233E /* P2PTunnelAgentTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6132D7401B9E83A90078233E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6132D7281B9E83A90078233E /* P2PTunnelAgent */;
+			targetProxy = 6132D73F1B9E83A90078233E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6132D7321B9E83A90078233E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6132D7331B9E83A90078233E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6132D7371B9E83A90078233E /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6132D7381B9E83A90078233E /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6132D7461B9E83A90078233E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6132D7471B9E83A90078233E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6132D7491B9E83A90078233E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_BITCODE = NO;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					../../../Include,
+				);
+				INFOPLIST_FILE = P2PTunnelAgent/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					../../../Lib/iOS,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tutk.samples.p2ptunnelagent;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "9d9a2558-1e0e-41da-8874-9dd06437aee5";
+				SWIFT_OBJC_BRIDGING_HEADER = "P2PTunnelAgent/P2PTunnelAgent-Bridging-Header.h";
+			};
+			name = Debug;
+		};
+		6132D74A1B9E83A90078233E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_BITCODE = NO;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					../../../Include,
+				);
+				INFOPLIST_FILE = P2PTunnelAgent/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					../../../Lib/iOS,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tutk.samples.p2ptunnelagent;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "9d9a2558-1e0e-41da-8874-9dd06437aee5";
+				SWIFT_OBJC_BRIDGING_HEADER = "P2PTunnelAgent/P2PTunnelAgent-Bridging-Header.h";
+			};
+			name = Release;
+		};
+		6132D74C1B9E83A90078233E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = P2PTunnelAgentTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tutk.samples.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/P2PTunnelAgent.app/P2PTunnelAgent";
+			};
+			name = Debug;
+		};
+		6132D74D1B9E83A90078233E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = P2PTunnelAgentTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tutk.samples.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/P2PTunnelAgent.app/P2PTunnelAgent";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6132D7241B9E83A90078233E /* Build configuration list for PBXProject "P2PTunnelAgent" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6132D7461B9E83A90078233E /* Debug */,
+				6132D7471B9E83A90078233E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6132D7481B9E83A90078233E /* Build configuration list for PBXNativeTarget "P2PTunnelAgent" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6132D7491B9E83A90078233E /* Debug */,
+				6132D74A1B9E83A90078233E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6132D74B1B9E83A90078233E /* Build configuration list for PBXNativeTarget "P2PTunnelAgentTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6132D74C1B9E83A90078233E /* Debug */,
+				6132D74D1B9E83A90078233E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6132D7211B9E83A90078233E /* Project object */;
+}

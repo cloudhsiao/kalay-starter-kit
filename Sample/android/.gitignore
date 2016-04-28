@@ -1,0 +1,10 @@
+#android
+.gradle
+local.properties
+.idea/
+.DS_Store
+build
+captures
+*.iml
+**/app/src/main/jniLibs
+**/app/src/main/java/com/tutk/IOTC
